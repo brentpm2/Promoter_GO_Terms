@@ -1,1 +1,13 @@
-To be completed
+Scripts used to determine GO term enrichment of core promoter regions. Script run order is as follows:
+
+1) subset_promoter.py
+2) annotate_promoter.R
+3) convert_motif.py
+4) get_total_tf_by_gene.py
+5) getGeneTOGo.py
+6) go_association.py
+7) go_permutation.py
+8) parse_permutation.py
+9) get_description.py
+
+Will eventually make the scripts less hard-coded. May improve permutation to handle multiple gene sets 'efficiently'.
